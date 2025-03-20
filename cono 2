@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    int antiguedad;
+    int sueldo, porcentaje;
+
+    
+    printf("Ingrese su antigüedad en años: (10)");
+    scanf("%d", &antiguedad);
+
+    
+    printf("Ingrese su sueldo mensual:(9,999) ");
+    scanf("%d", &sueldo);
+
+    
+    porcentaje = sueldo *.10;
+    if (antiguedad >= 5  && porcentaje >= 1000) 
+        printf("Usted es sujeto a un crédito hipotecario.\n");
+    } else 
+        printf("No cumple con los requisitos para un crédito hipotecario.\n");
+    }
+
+    return 0;
+
+}
